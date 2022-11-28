@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="body-main" class="body-main">
+        <div id="container-1" class="container1">
+            <input type="range" min="15" max="45" step="10" onchange="slider()" id="size">
+            <input type="range" min="50" max="300" step="50" onchange="sliderTwo()" id="speed">
+            <div class="" id="heading">
+                Sorting Visualizer
+            </div>
+            <button id="button1" class="button" onclick="init()">New array!</button>
+            <button id="button2" class="button" onclick="sort()">BubbleSort</button>
+        </div>
+        <div class="container2">
+            <div id="container-2-1" class="containertwo">
+                two-one.
+            </div>
+            <div id="containertwo" class="containertwo">
+                <!-- Second Line. -->
+            </div>
+            <div id="container-2-3" class="containertwo">
+                two-three
+            </div>
+        </div>
+        <div id="container-3" class="container3">
+            <button id="align-flexstart" class="button" onclick="alignStart()">Default</button>
+            <button id="align-center" class="button" onclick="alignCenter()">Center</button>
+            <button id="align-flexend" class="button" onclick="alignEnd()">Flex-End</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
