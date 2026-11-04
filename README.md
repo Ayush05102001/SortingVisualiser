@@ -15,7 +15,7 @@ An interactive web app that brings sorting algorithms to life. Watch how differe
 
 ---
 
-## 🧮 Algorithms Implemented
+## 🧮 Algorithms
 
 | Algorithm      | Best       | Average    | Worst      | Space     | Stable |
 |----------------|------------|------------|------------|-----------|--------|
